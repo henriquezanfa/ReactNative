@@ -9,7 +9,7 @@ const Header = (props) => {
             <Text style={textStyle} >{props.headerText}</Text>
         </View>
     );
-}
+};
 
 const styles = {
     viewStyle: {
@@ -20,12 +20,12 @@ const styles = {
         shadowColor: 'black',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
-        elevation: 2,
-        position : 'relative'
+        elevation: 6,
+        position: 'relative'
     },
     textStyle: {
         fontSize: 25,
     }
-}
+};
 
 export default Header;
